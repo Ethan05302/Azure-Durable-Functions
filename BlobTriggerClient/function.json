@@ -1,0 +1,17 @@
+{
+    "bindings": [
+      {
+        "name": "myblob",
+        "type": "blobTrigger",
+        "direction": "in",
+        "path": "image-input/{name}",
+        "connection": "AzureWebJobsStorage"
+      },
+      {
+        "name": "starter",
+        "type": "orchestrationClient",
+        "direction": "in"
+      }
+    ]
+  }
+  

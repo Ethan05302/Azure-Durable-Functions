@@ -1,0 +1,10 @@
+{
+    "bindings": [
+      {
+        "name": "metadata",
+        "type": "activityTrigger",
+        "direction": "in"
+      }
+    ]
+  }
+  
